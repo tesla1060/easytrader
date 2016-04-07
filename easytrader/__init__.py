@@ -1,8 +1,10 @@
 # coding: utf-8
-__author__ = 'shidenggui'
-
-from .webtrader import WebTrader
-from .yjbtrader import YJBTrader
-from .httrader import HTTrader
 from .api import *
+from .httrader import HTTrader
+from .webtrader import WebTrader
+from .yhtrader import YHTrader
+from .yjbtrader import YJBTrader
+from .gftrader import GFTrader
 
+__version__ = '0.6.0'
+__author__ = 'shidenggui'
